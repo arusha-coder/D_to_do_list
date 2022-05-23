@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login page</title>
+</head>
+<body class="body">
+  <div class="wrapper">
+    <h1>Login</h1>
+    <h4>Login here to input your To Do's</h4>
+    <form class="sign-up-form">
+        <div id="input-container">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" class='inputs' name="UserName" placeholder="User-name" onblur="saveValue(event)" />
+          </div>
+          <div id="input-container">
+            <i class="fa-solid fa-at"></i>
+           
+            <input type="email" placeholder="Enter Your Email" class='inputs' name="E-mail_Adress" onblur="saveValue(event)" />
+          </div>
+           <div id="input-container">
+            <i class="fa-solid fa-key"></i>
+            
+            <input type="password" class='inputs' placeholder="Password" name="Password" onblur="saveValue(event)" />
+          </div>
+          
+
+
+          <a href="index.html">
+            
+            <input type="submit" value="Login" class="login-form_btn"/>
+              
+          </a>
+          </form>
+  </div>
+  
+  <script src="../Js/login.js"></script>
+  
+  <script src="https://kit.fontawesome.com/55f1c3d3e0.js" crossorigin="anonymous"></script>
+</body>
+</html>
